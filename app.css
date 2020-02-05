@@ -11,7 +11,7 @@
 	border:none;	
 }
 
-footer {
+footer,header {
     position: fixed;
     width: 100%;
     height: 40px;
@@ -33,7 +33,10 @@ footer {
     cursor: pointer;
     z-index: 999;
 }
-
+.desktop-topx{
+    top: 0;
+    height: 50px;
+}
 .desktop-top {
 	position: fixed;
     top: 0;
